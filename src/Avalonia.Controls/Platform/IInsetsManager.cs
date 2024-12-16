@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Avalonia.Media;
 using Avalonia.Metadata;
 using Avalonia.Threading;
@@ -15,7 +15,7 @@ namespace Avalonia.Controls.Platform
         bool? IsSystemBarVisible { get; set; }
 
         /// <summary>
-        /// Gets or sets whether the window draws edge to edge. behind any visible system bars.
+        /// Gets or sets whether the window draws edge to edge behind any visible system bars.
         /// </summary>
         bool DisplayEdgeToEdge { get; set; }
 
@@ -25,7 +25,7 @@ namespace Avalonia.Controls.Platform
         Thickness SafeAreaPadding { get; }
 
         /// <summary>
-        /// Gets or sets the color of the platform's system bars
+        /// Gets or sets the color of the platform's system bars.
         /// </summary>
         Color? SystemBarColor { get; set; }
 
